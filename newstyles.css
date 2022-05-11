@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Patrick Hand', cursive;
+    background-color: #305c81;
+}
+.header{
+    min-height: 15vh;
+    width: 100%;
+    background: #305c81;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 1% 4%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    padding: 5px;
+    width: 150px;
+    border-radius: 50%;
+    background: #d3ad88;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 110%;
+}
+.nav-links .fa-solid{
+    color: white;
+    padding: 10px;
+}
+
+#centre-logo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+#centre-logo img{
+    width: 650px;
+    border-radius: 50%;
+}
+
+.social-media-icons .fa-brands{
+    color: #fff;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 60px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.social-media-icons .fa-solid{
+    color: #fff;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 70px;
+    margin-right: 15px;
+    margin-left: 15px;   
+}
+nav .fi-xnsuxl-times-solid {
+    display: none;
+}
+nav .fi-xnsuxl-three-bars-solid {
+    display: none;
+    
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background: #305c81;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.icons .fa-brands{
+    color: #d3ad88;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+.icons .fa-solid{
+    color: #fff;
+    font-size: 50px;
+    margin: 40px 50px;
+    
+}
+.icons .fa-brands{
+    color: #fff;
+    font-size: 50px;
+}
+
+.fa-solid{
+    color: #d3ad88;
+    
+}
+.fa-brands{
+    color: #d3ad88;
+}
+.footer p{
+
+    color: white;
+    font-size: 20px;
+}
+
+.footer h3{
+    color: #d3ad88;
+    font-size: 25px;
+}
+
+.footer #madeby{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+}
+
+#madeby .fa-linkedin{
+    border: 1px solid; 
+}
+
+.fa-bars{
+        
+        color: white;
+    }
+
+
+@media(max-width: 700px){
+    #centre-logo img{
+        width: 300px;
+    }
+
+
+/* Style the navigation menu */
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.header  #myLinks {
+  display: none;
+    
+}
+
+/* Style navigation menu links */
+    
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: white;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+    
+}
+
+/* Add a grey background color on mouse-over */
+
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #fff;
+  color: #fff;
+    
+}
+}
